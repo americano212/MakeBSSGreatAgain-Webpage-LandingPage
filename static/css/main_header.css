@@ -1,0 +1,9 @@
+header .header_box{
+    width: 100%;
+    height: 12vh;
+    background-color: #fff;
+    position: fixed;
+    display:block;
+    top:0px;
+    z-index:9;
+}
