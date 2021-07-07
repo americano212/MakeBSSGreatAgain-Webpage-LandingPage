@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MakeBSSGreatAgain</title>
-    
+
     <link rel="stylesheet" href="full_page_js/fullpage.min.css">
     <link rel="stylesheet" href="index.css">
     <script src="full_page_js/fullpage.min.js"></script>
+    <link rel="icon" href="./static/svg/fav.svg">
 </head>
+
+
 <body>
     <div id="full-page">
-        <div class="section s0">
-            <h2>section 0</h2>
-        </div>
         <div class="section s1">
             <h2>section 1</h2>
         </div>
@@ -24,14 +24,19 @@
         <div class="section s3">
             <h2>section 3</h2>
         </div>
+        <div class="section s4">
+            <h2>section 4</h2>
+        </div>
 
     </div>
 
     <script>
         new fullpage('#full-page', {
             licenseKey: '',
-            sectionsColor: ['#ffffff','#D6C7ED','#9FD4EB','#C6E8D3']
-
+            sectionsColor: ['#ffffff','#D6C7ED','#9FD4EB','#C6E8D3'],
+            navigation: true,
+            navigationTooltips: ['Home','What','Who','Info'],
+            scrollingSpeed: 1000
         });
     </script>
 </body>
