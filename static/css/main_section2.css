@@ -1,0 +1,40 @@
+.s2 .img_box{
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.s2 .text_box{
+    float: left;
+    margin-top: 5%;
+    margin-left: 5vw;
+}
+.s2 img{
+    width: 45vw;
+    margin-left: 5%;
+}
+
+.s2 .text_box .title_box p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+.s2 .main_text_box{
+    margin-top: 8vh;
+}
+.s2 .main_text_box p{
+    margin: 0;
+}
+.s2 button{
+    margin-top: 5vh;
+    background-color: #262673;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    font-size: 3vh;
+    border-radius: 15px;
+    padding: 0.5vw;
+    padding-left: 1.7vw;
+    padding-right: 1.7vw;
+}
