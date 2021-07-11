@@ -10,3 +10,9 @@ html{
 #fp-nav ul li a span {
     background-color: #fff;
 }
+.s3{
+    background: linear-gradient(to bottom right, #9FD4EB, #B2FEFA);
+}
+.s4{
+    background: linear-gradient(to bottom right, #EAECC6, #2BC0E4);
+}
