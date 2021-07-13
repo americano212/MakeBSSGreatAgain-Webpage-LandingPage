@@ -1,8 +1,23 @@
 /*index.css*/
+/* bebas-neue-regular - latin */
+/* bebas-neue-regular - latin */
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/bebas-neue-v2-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/bebas-neue-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/bebas-neue-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/bebas-neue-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/bebas-neue-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/bebas-neue-v2-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
+}
 html{
-
+    
 }
 .s1 {
+    font-family: 'Bebas Neue';
     background-image: url('./static/img/mainpage_sec0_background80.png');
     background-size: cover;
 }

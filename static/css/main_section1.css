@@ -4,26 +4,27 @@
     padding-left: 5%;
 }
 .s1 .title_box span{
-    font-size: 4rem;
-    font-weight: bold;
+    
+    font-size: 6rem;
     color: #fff;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
+    padding-bottom: 0;
     padding-top: 5px;
     background-color:#3FC7D5;
 }
 .s1 .title_box p{
-    font-size: 4rem;
-    font-weight: bold;
+    font-size: 6rem;
     color: #fff;
     margin: 0;
-    padding: 10px;
-    padding-top: 5px;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
     background-color:#3FC7D5;
 }
 .s1 .subtitle_box{
     position: relative;
-    margin-top: 10%;
+    margin-top: 20%;
     padding-left: 5%;
 }
 .s1 .subtitle_box p{
