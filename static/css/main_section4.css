@@ -1,0 +1,51 @@
+.s4 .footer_box{
+    position: absolute;
+    background-color: #404040;
+    width: 100%;
+    height: 10vh;
+    bottom: 0;
+}
+.s4 .donation_box{
+    float: left;
+    background-color: #fff;
+    margin-top: 4vh;
+    margin-left: 6.5vw;
+    height: 55vh;
+    width: 35vw;
+    border-radius: 2vw;
+    box-shadow: 10px 10px 10px grey;
+    padding-top: 5vh;
+}
+.s4 .homepagelink_box{
+    float: left;
+    background-color: #fff;
+    margin-top: 4vh;
+    margin-left: 3vw;
+    height: 23vh;
+    width: 49vw;
+    border-radius: 2vw;
+    box-shadow: 10px 10px 10px grey;
+    padding-top: 5vh;
+}
+.s4 .githublink_box{
+    float: left;
+    background-color: #fff;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    height: 22vh;
+    width: 23vw;
+    border-radius: 2vw;
+    box-shadow: 10px 10px 10px grey;
+    padding-top: 5vh;
+}
+.s4 .logo_box{
+    float: left;
+    background-color: #fff;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    height: 22vh;
+    width: 23vw;
+    border-radius: 2vw;
+    box-shadow: 10px 10px 10px grey;
+    padding-top: 5vh;
+}
