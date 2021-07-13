@@ -5,6 +5,12 @@
     height: 10vh;
     bottom: 0;
 }
+.s4 .footer_box{
+    font-size: 1rem;
+    color: gray;
+    text-align: center;
+    padding-top: 2vh;
+}
 .s4 .donation_box{
     float: left;
     background-color: #fff;
@@ -14,7 +20,32 @@
     width: 35vw;
     border-radius: 2vw;
     box-shadow: 10px 10px 10px grey;
-    padding-top: 5vh;
+    padding-top: 7vh;
+    padding-left: 5vw;
+}
+.s4 .donation_box .title_box p{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.s4 .donation_box .content_box p{
+    font-size: 1.2rem;
+    margin: 0;
+}
+.s4 .account_box{
+    background-color: #EFAE4D;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10vh;
+    margin-right: 7vw;
+    margin-left: 2vw;
+    border: 0;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.s4 .account_box p{
+    margin: 0;
 }
 .s4 .homepagelink_box{
     float: left;
@@ -25,7 +56,27 @@
     width: 49vw;
     border-radius: 2vw;
     box-shadow: 10px 10px 10px grey;
-    padding-top: 5vh;
+    padding-top: 6vh;
+}
+.s4 .homepagelink_box .title_box p{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0;
+    margin-left: 3vw;
+}
+.s4 .homepagelink_box .content_box p{
+    font-size: 1.2rem;
+    margin: 0;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    float: left;
+}
+.s4 .homepagelink_box img{
+    width: 3vw;
+    float: left;
+    margin-left: 1vw;
+    margin-top: 4vh;
+
 }
 .s4 .githublink_box{
     float: left;
@@ -36,7 +87,19 @@
     width: 23vw;
     border-radius: 2vw;
     box-shadow: 10px 10px 10px grey;
-    padding-top: 5vh;
+    padding-top: 7vh;
+}
+.s4 .githublink_box .title_box p{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin: 0;
+    margin-left: 3vw;
+}
+.s4 .githublink_box .content_box p{
+    font-size: 1.2rem;
+    margin: 0;
+    margin-left: 3vw;
+    margin-top: 5vh;
 }
 .s4 .logo_box{
     float: left;
@@ -48,4 +111,9 @@
     border-radius: 2vw;
     box-shadow: 10px 10px 10px grey;
     padding-top: 5vh;
+}
+.s4 .logo_box img{
+    width: 19vw;
+    margin-left: 2vw;
+    margin-top: 3vh;
 }
