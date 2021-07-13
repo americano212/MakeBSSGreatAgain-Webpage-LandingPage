@@ -43,5 +43,24 @@
     padding-right: 1.7vw;
 }
 .s3 .person_box{
-    background-color: purple;
+    position: absolute;
+    float: left;
+    top: 25vh;
+    right: 8vw;
+}
+.s3 .person_box img{
+    width: 15vw;
+    height: 15vh;
+    margin-top: 5vh;
+}
+.s3 .person_box .box_1{
+    float: left;
+    margin-left: 1vw;
+    text-align: center;
+}
+.s3 .person_box .box_1 p{
+    margin: 0;
+}
+.s3 .person_box .row{
+    padding-bottom: 5vh;
 }
