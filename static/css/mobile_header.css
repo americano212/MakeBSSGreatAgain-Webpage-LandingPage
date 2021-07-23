@@ -1,0 +1,42 @@
+header .header_box{
+    width: 100%;
+    height: 12vh;
+    background-color: #fff;
+    position: fixed;
+    display:block;
+    top:0px;
+    z-index:9;
+}
+header .header_box .logo_box{
+    position: absolute;
+    top: 20%;
+    display: inline-block;
+    width: 12%;
+    height: 10vh;
+    padding-left: 2vw;
+}
+header .header_box .logo_box object{
+    object-fit: cover;
+}
+
+header .login_btn_box{
+    visibility: hidden;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+
+header .login_btn_box button{
+    visibility: hidden;
+    background-color: #3FC7D5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    font-weight: bolder;
+    font-size: 1.2vw;
+    padding: 0.8vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-radius: 12px;
+}

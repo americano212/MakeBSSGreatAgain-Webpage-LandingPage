@@ -1,0 +1,66 @@
+.s3 .text_box{
+    position: absolute;
+    float: left;
+    top: 20vh;
+    left: 5vw;
+
+}
+.s3 .text_box .title_box{
+    font-weight: bold;
+    font-size: 2rem ;
+}
+.s3 .text_box .main_text_box p{
+    margin: 0;
+    font-size: 1.1rem ;
+}
+.s3 .join_box{
+    background-color: #fff;
+    margin-top: 45vh;
+    margin-left: 5vw;
+    height: 20vh;
+    width: 35vw;
+    border-radius: 2vw;
+    box-shadow: 10px 10px 10px grey;
+    padding-top: 5vh;
+}
+.s3 .join_box p{
+    margin: 0;
+    padding-left: 3vw;
+    font-size: 1.1rem ;
+}
+.s3 .join_box button{
+    margin-top: 4vh;
+    margin-left: 23vw;
+    background-color: #4D8EEF;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    font-size: 2.5vh;
+    border-radius: 15px;
+    padding: 0.5vw;
+    padding-left: 1.7vw;
+    padding-right: 1.7vw;
+}
+.s3 .person_box{
+    position: absolute;
+    float: left;
+    top: 25vh;
+    right: 8vw;
+}
+.s3 .person_box img{
+    width: 15vw;
+    height: 15vh;
+    margin-top: 5vh;
+}
+.s3 .person_box .box_1{
+    float: left;
+    margin-left: 1vw;
+    text-align: center;
+}
+.s3 .person_box .box_1 p{
+    margin: 0;
+}
+.s3 .person_box .row{
+    padding-bottom: 5vh;
+}
