@@ -25,7 +25,7 @@
 }
 .s4 .donation_box .title_box p{
     font-size: 2rem;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .s4 .donation_box .content_box p{
     font-size: 1.2rem;
@@ -60,7 +60,7 @@
 }
 .s4 .homepagelink_box .title_box p{
     font-size: 2rem;
-    font-weight: bolder;
+    font-weight: bold;
     margin: 0;
     margin-left: 3vw;
 }
@@ -91,7 +91,7 @@
 }
 .s4 .githublink_box .title_box p{
     font-size: 1.6rem;
-    font-weight: bolder;
+    font-weight: bold;
     margin: 0;
     margin-left: 3vw;
 }

@@ -14,12 +14,18 @@
          url('./fonts/bebas-neue-v2-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
 }
 html{
-    
+    font-family: "Noto Sans", "Noto Sans KR", sans-serif;
+	font-weight: 300;
 }
+
 .s1 {
-    font-family: 'Bebas Neue';
     background-image: url('./static/img/mainpage_sec0_background80.png');
     background-size: cover;
+}
+
+.title_box_mbga {
+	font-family: "Bebas Neue";
+	/* font-weight: 700; */
 }
 
 #fp-nav ul li a span {

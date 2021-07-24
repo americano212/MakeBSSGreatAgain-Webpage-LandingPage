@@ -1,9 +1,9 @@
-.s1 .title_box{
+.s1 .title_box_mbga {
     position: absolute;
     top: 23%;
     padding-left: 5%;
 }
-.s1 .title_box span{
+.s1 .title_box_mbga span{
     
     font-size: 6rem;
     color: #fff;
@@ -13,7 +13,7 @@
     padding-top: 5px;
     background-color:#3FC7D5;
 }
-.s1 .title_box p{
+.s1 .title_box_mbga p{
     font-size: 6rem;
     color: #fff;
     margin: 0;
