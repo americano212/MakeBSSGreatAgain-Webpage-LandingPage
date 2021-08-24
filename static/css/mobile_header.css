@@ -9,9 +9,9 @@ header .header_box{
 }
 header .header_box .logo_box{
     position: absolute;
-    top: 20%;
+    top: 30%;
     display: inline-block;
-    width: 12%;
+    width: 18%;
     height: 10vh;
     padding-left: 2vw;
 }
@@ -39,4 +39,30 @@ header .login_btn_box button{
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     border-radius: 12px;
+}
+header .mobile-menu{
+    position: fixed;
+    top: 3%;
+    right: 1%;
+    padding: 0;
+    width: 8%;
+
+}
+
+header .sliding_menu_box{
+    position: fixed;
+    top: 0;
+    left: -300px;
+    z-index: 400;
+    overflow: auto;
+    width: 300px;
+    height: 100%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    transition: left .3s ease-in-out;
+    background-color: #f0f0f0;
+}
+
+header .sliding_menu_box.on{
+    left: 0;
 }

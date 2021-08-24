@@ -38,3 +38,9 @@ header .login_btn_box button{
     padding-right: 1.5vw;
     border-radius: 12px;
 }
+header .mobile-menu{
+    display: none;
+}
+header .sliding_menu_box{
+    display: none;
+}

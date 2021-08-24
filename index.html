@@ -27,6 +27,7 @@
     <link rel="icon" href="./static/svg/fav.svg">
 </head>
 <header>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous">
     <div class="header_box">
         <div class="logo_box">
             <object data="./static/svg/main_logo.svg" type="image/svg+xml"></object>
@@ -34,8 +35,39 @@
         <div class="login_btn_box">
             <button type="button" onclick="location.href='/'">Login</button>
         </div>
+        <button type="button" class="mobile-menu"><i class="fas fa-bars"></i></button>
+
+        <div class="sliding_menu_box">
+            <nav id="menu">
+                <ul class="category_list">
+                    <li class=""><a class="link_sub_item" href="/category/1">Login</a></li>
+                    <li class=""><a class="link_sub_item" href="/category/2">About</a></li>
+                    <li class=""><a class="link_sub_item" href="/category/3">동창회비</a></li>
+                    <li class=""><a class="link_sub_item" href="/category/4">총동창회 소개</a></li>
+                </ul>            
+            </nav>
+
+        </div>
     </div>
 </header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+    document.querySelector(".mobile-menu").addEventListener("click", function(e){
+        if ( document.querySelector('.sliding_menu_box').classList.contains('on') ){
+            //메뉴닫힘
+            document.querySelector('.sliding_menu_box').classList.remove('on');
+            document.querySelector('.mobile-menu i').classList.remove('fa-times')
+            document.querySelector('.mobile-menu i').classList.add('fa-bars');
+        } else {
+            //메뉴펼침
+            document.querySelector('.sliding_menu_box').classList.add('on');
+            document.querySelector('.mobile-menu i').classList.remove('fa-bars');
+            document.querySelector('.mobile-menu i').classList.add('fa-times');
+        }
+    });
+});
+</script>
 
 <body>
     <div id="full-page">
