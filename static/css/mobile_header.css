@@ -42,7 +42,7 @@ header .login_btn_box button{
 }
 header .mobile-menu{
     position: fixed;
-    top: 3%;
+    top: 5%;
     right: 1%;
     padding: 0;
     width: 8%;
@@ -60,9 +60,25 @@ header .sliding_menu_box{
     padding: 50px 20px;
     box-sizing: border-box;
     transition: left .3s ease-in-out;
-    background-color: #f0f0f0;
+    background-color: #fff;
 }
 
 header .sliding_menu_box.on{
     left: 0;
+}
+
+header .link_sub_item{
+    .padding-bottom: 5rem:
+    font: 'Bebas Neue';
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5rem;
+}
+header .link_sub_item p:hover{
+    .padding-bottom: 5rem:
+    font: 'Bebas Neue';
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
 }

@@ -18,11 +18,11 @@
     <link rel="stylesheet" href="./static/css/mobile_section3.css" media="screen and (max-width:767px)">
     <link rel="stylesheet" href="./static/css/main_section4.css" media="screen and (min-width:768px)">
     <link rel="stylesheet" href="./static/css/mobile_section4.css" media="screen and (max-width:767px)">
-	
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-	
+
     <script src="full_page_js/fullpage.min.js"></script>
     <link rel="icon" href="./static/svg/fav.svg">
 </head>
@@ -40,34 +40,20 @@
         <div class="sliding_menu_box">
             <nav id="menu">
                 <ul class="category_list">
-                    <li class=""><a class="link_sub_item" href="/category/1">Login</a></li>
-                    <li class=""><a class="link_sub_item" href="/category/2">About</a></li>
-                    <li class=""><a class="link_sub_item" href="/category/3">동창회비</a></li>
-                    <li class=""><a class="link_sub_item" href="/category/4">총동창회 소개</a></li>
-                </ul>            
+                    <li class=""><a class="link_sub_item" href="#"><p>Login</p></a></li>
+                    <br>
+                    <li class=""><a class="link_sub_item" href="#"><p>About</p></a></li>
+                    <br>
+                    <li class=""><a class="link_sub_item" href="#"><p>동창회비</p></a></li>
+                    <br>
+                    <li class=""><a class="link_sub_item" href="#"><p>총동창회 소개</p></a></li>
+                </ul>
             </nav>
 
         </div>
     </div>
 </header>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function(){
-    document.querySelector(".mobile-menu").addEventListener("click", function(e){
-        if ( document.querySelector('.sliding_menu_box').classList.contains('on') ){
-            //메뉴닫힘
-            document.querySelector('.sliding_menu_box').classList.remove('on');
-            document.querySelector('.mobile-menu i').classList.remove('fa-times')
-            document.querySelector('.mobile-menu i').classList.add('fa-bars');
-        } else {
-            //메뉴펼침
-            document.querySelector('.sliding_menu_box').classList.add('on');
-            document.querySelector('.mobile-menu i').classList.remove('fa-bars');
-            document.querySelector('.mobile-menu i').classList.add('fa-times');
-        }
-    });
-});
-</script>
+<script type="text/javascript" src="sliding_menu_js/sliding_menu.js"></script>
 
 <body>
     <div id="full-page">
@@ -84,7 +70,7 @@
             <div class="img_box">
                 <img src="./static/img/temp.png">
             </div>
-            
+
             <div class="text_box">
                 <div class="title_box">
                     <p>부곽의, 부곽에 의한,</p>
@@ -98,7 +84,9 @@
                     <br>
                     <p>여러 경조사 및 부곽인들과 관련된 소식들도 전해드려요.</p>
                 </div>
-                <button type="button" >Comming Soon :)</button>
+                <div class="button_box">
+                    <button type="button" >Comming Soon :)</button>
+                </div>
             </div>
         </div>
         <div class="section s3">
@@ -157,7 +145,7 @@
                         <p>DB,Front,Design</p>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <div class="section s4">
@@ -182,7 +170,7 @@
                     <p>우리의 그리운 모교, 부산과학고등학교 홈페이지로 가봐요!</p>
                     <a href="http://www.bss.hs.kr/"><img src="./static/img/right_arrow.png"></a>
                 </div>
-                
+
             </div>
             <div class="row">
                 <div class="githublink_box">
@@ -197,7 +185,7 @@
                     <img src="./static/svg/main_logo.svg">
                 </div>
             </div>
-            
+
             <div class="footer_box">
                 <p>Copyright &copy; Team MBGA 2021. All rights reserved.</p>
             </div>

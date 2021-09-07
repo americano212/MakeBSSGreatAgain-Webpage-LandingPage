@@ -22,7 +22,12 @@ html{
     background-image: url('./static/img/mainpage_sec0_background80.png');
     background-size: cover;
 }
-
+/*
+.s2 {
+    background-image: url('./static/svg/colorful_bg.svg');
+    background-size: cover;
+}
+*/
 .title_box_mbga {
 	font-family: "Bebas Neue";
 	/* font-weight: 700; */

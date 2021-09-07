@@ -1,7 +1,8 @@
 .s2 .img_box{
     float: left;
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
 }
 .s2 .text_box{
     float: left;
@@ -9,32 +10,43 @@
     margin-left: 5vw;
 }
 .s2 img{
-    width: 45vw;
+    width: 70vw;
     margin-left: 5%;
+    display: inline-block;
 }
 
 .s2 .text_box .title_box p{
     margin: 0;
     font-weight: bold;
-    font-size: 4vh;
+    font-size: 7vw;
+
 }
 
 .s2 .main_text_box{
     margin-top: 8vh;
+    font-size: 4vw;
+
 }
 .s2 .main_text_box p{
     margin: 0;
 }
+.s2 .button_box{
+    width: 100%;
+    text-align: center;
+}
 .s2 button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: 5vh;
     background-color: #262673;
     color: #fff;
     text-align: center;
     text-decoration: none;
     border: 0;
-    font-size: 3vh;
+    font-size: 1rem;
     border-radius: 15px;
-    padding: 0.5vw;
-    padding-left: 1.7vw;
-    padding-right: 1.7vw;
+    padding: 2.3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
